@@ -1,0 +1,148 @@
+{
+  "year_zero" : {
+    "actual_year": "1992",
+    "home_city": "Rainbow Lake",
+    "weeks" : [
+      {
+        "actual_dates": [
+          "Sep. 20",
+          "Sep. 21",
+          "Sep. 22",
+          "Sep. 23",
+          "Sep. 24",
+          "Sep. 25",
+          "Sep. 26"
+        ],
+        "activity": "none"
+      }
+    ]
+  },
+  "year_one" : {
+    "actual_year": "1993",
+    "home_city": "Rainbow Lake"
+  },
+  "year_two" : {
+    "actual_year": "1994",
+    "home_city": "Rainbow Lake"
+  },
+  "year_three" : {
+    "actual_year": "1995",
+    "home_city": "Rainbow Lake"
+  },
+  "year_four" : {
+    "actual_year": "1996",
+    "home_city": "Rainbow Lake"
+  },
+  "year_fiv" : {
+    "actual_year": "1997",
+    "home_city": [
+      "Rainbow Lake",
+      "Cold Lake"
+    ]
+  },
+  "year_six" : {
+    "actual_year": "1998",
+    "home_city": "Cold Lake"
+  },
+  "year_seven" : {
+    "actual_year": "1999",
+    "home_city": "Cold Lake"
+  },
+  "year_eight" : {
+    "actual_year": "2000",
+    "home_city": "Cold Lake"
+  },
+  "year_nine" : {
+    "actual_year": "2001",
+    "home_city": "Cold Lake"
+  },
+  "year_ten" : {
+    "actual_year": "2002",
+    "home_city": "Cold Lake"
+  },
+  "year_eleven" : {
+    "actual_year": "2003",
+    "home_city": "Cold Lake"
+  },
+  "year_twelve" : {
+    "actual_year": "2004",
+    "home_city": "Cold Lake"
+  },
+  "year_thirteen" : {
+    "actual_year": "2005",
+    "home_city": "Cold Lake"
+  },
+  "year_fourteen" : {
+    "actual_year": "2006",
+    "home_city": "Cold Lake"
+  },
+  "year_fifteen" : {
+    "actual_year": "2007",
+    "home_city": "Cold Lake"
+  },
+  "year_sixteen" : {
+    "actual_year": "2008",
+    "home_city": "Cold Lake"
+  },
+  "year_seventeen" : {
+    "actual_year": "2009",
+    "home_city": [
+      "Cold Lake",
+      "Saskatoon"
+    ]
+  },
+  "year_eighteen" : {
+    "actual_year": "2010",
+    "home_city": "Saskatoon"
+  },
+  "year_nineteen" : {
+    "actual_year": "2011",
+    "home_city": "Saskatoon"
+  },
+  "year_twenty" : {
+    "actual_year": "2012",
+    "home_city": "Saskatoon"
+  },
+  "year_twenty_one" : {
+    "actual_year": "2013",
+    "home_city": "Calgary"
+  },
+  "year_twenty_two" : {
+    "actual_year": "2014",
+    "home_city": "Saskatoon"
+  },
+  "year_twenty_three" : {
+    "actual_year": "2015",
+    "home_city": [
+      "Saskatoon",
+      "Cold Lake"
+    ]
+  },
+  "year_twenty_four" : {
+    "actual_year": "2016",
+    "home_city": "Cold Lake"
+  },
+  "year_twenty_five" : {
+    "actual_year": "2017",
+    "home_city": [
+      "Cold Lake",
+      "Vancouver Island"
+    ]
+  },
+  "year_twenty_six" : {
+    "actual_year": "2018",
+    "home_city": "Vancouver Island"
+  },
+  "year_twenty_seven" : {
+    "actual_year": "2019",
+    "home_city": "Vancouver Island"
+  },
+  "year_twenty_eight" : {
+    "actual_year": "2020",
+    "home_city": "Vancouver Island"
+  },
+  "year_twenty_nine" : {
+    "actual_year": "2021",
+    "home_city": "Vancouver Island"
+  }
+}

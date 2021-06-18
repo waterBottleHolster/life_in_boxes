@@ -1,0 +1,77 @@
+body {
+  --rainbow-lake-green: rgb(0,70,0);
+  --cold-lake-blue: rgb(0,0,150);
+  --saskatoon-green: rgb(100, 175, 0);
+  --calgary-red: rgb(205,20,0);
+  --swift-current-yellow: rgb(255,255,0);
+  --island-blue: rgb(0,150,255);
+  background-color: #333;
+}
+
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+#container {
+  display: grid;
+  grid-gap: 0.75em;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+  padding: 0.7em;
+  border: 1px solid #888;
+  text-align: center;
+}
+
+.rainbow-lake-bg {
+  background-color: var(--rainbow-lake-green);
+  color: white;
+}
+
+.cold-lake-bg {
+  background-color: var(--cold-lake-blue);
+  color: white;
+}
+
+.saskatoon-bg {
+  background-color: var(--saskatoon-green);
+  color: white;
+}
+
+.calgary-bg {
+  background-color: var(--calgary-red);
+  color: white;
+}
+
+.island-bg {
+  background-color: var(--island-blue);
+  color: white;
+}
+
+.unknown-bg {
+  background-color: #333;
+  color: #777;
+}
+
+#cell5 {
+  background: linear-gradient(to right, var(--rainbow-lake-green) 50%, var(--cold-lake-blue) 50%);
+  color: white;
+}
+
+#cell17 {
+  background: linear-gradient(to right, var(--cold-lake-blue) 50%, var(--saskatoon-green) 50%);
+  color: white;
+}
+
+#cell23 {
+  background: linear-gradient(to right, var(--saskatoon-green) 50%, var(--cold-lake-blue) 50%);
+  color: white;
+}
+
+#cell25 {
+  background: linear-gradient(to right, var(--cold-lake-blue) 50%, var(--island-blue) 50%);
+  color: white;
+}
