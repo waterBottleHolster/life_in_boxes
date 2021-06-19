@@ -17,8 +17,23 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
 
-  <div class="container" id="container" style="margin-top: 30px;"></div>
 
+  <div class="mx-auto" id="first-box">
+    <a class="btn btn-success" onclick="testerFunc()">HERE</a>
+  </div>
+  
+
+  <div class="container" id="container"></div>
+
+  <script>
+    function testerFunc() {
+      var content = "<a class='btn btn-success' onclick='testerFunc()''>HERE</a>";
+      $('#first-box').fadeOut('slow', function() {
+        $('#first-box').replaceWith("<div id='first-box' style='display:none' class='mx-auto'>" + content + "</div>");
+        $('#first-box').fadeIn('slow');
+      });
+    }
+  </script>
   
   <script>
     // this imports a json file that's used to help generate the 

@@ -18,10 +18,11 @@ body {
   grid-gap: 0.75em;
   grid-template-rows: repeat(var(--grid-rows), 1fr);
   grid-template-columns: repeat(var(--grid-cols), 1fr);
+  margin-top: 0.55em;
 }
 
 .grid-item {
-  padding: 0.7em;
+  padding: 0.5em;
   border: 1px solid #888;
   text-align: center;
 }
@@ -74,4 +75,18 @@ body {
 #cell25 {
   background: linear-gradient(to right, var(--cold-lake-blue) 50%, var(--island-blue) 50%);
   color: white;
+}
+
+#first-box {
+  width: 300px; height: 400px; background-color: pink;
+}
+
+#second-box {
+  width: 300px; height: 400px; background-color: rgb(182, 43, 43);
+}
+.my-classname-to-hide {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 1.2s all;
 }
